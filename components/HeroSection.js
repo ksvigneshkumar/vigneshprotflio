@@ -186,6 +186,12 @@ export default function HeroSection() {
           ))}
         </div>
       </div>
+<<<<<<< HEAD
+=======
+      
+
+      
+>>>>>>> 7762d610299662934215776b08962385a8fdb8db
 
       <canvas ref={threeRef} className={styles.threeCanvas} />
     </section>

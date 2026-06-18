@@ -12,7 +12,11 @@ export default function ResumeSection() {
         <span className={styles.icon}>📄</span>
         <h3 className={styles.cardTitle}>Vignesh K S — Full Stack Developer</h3>
         <p className={styles.cardDesc}>
+<<<<<<< HEAD
           B.E. ECE · KLN College of Engineering · Internship @ Sourcesys Technologies<br />
+=======
+          B.E. ECE · KLN College of Engineering · Internship @ Sourcesys Technologies @ PBI Technology<br />
+>>>>>>> 7762d610299662934215776b08962385a8fdb8db
           React · Next.js · Django · LLM/RAG · Python
         </p>
         <div className={styles.cardBtns}>

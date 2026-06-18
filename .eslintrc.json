@@ -1,8 +1,8 @@
-{
+Set-Content -Path .eslintrc.json -Value '{
   "extends": "next/core-web-vitals",
   "rules": {
     "react/no-unescaped-entities": "off",
     "react/jsx-no-comment-textnodes": "off",
     "@next/next/no-page-custom-font": "off"
   }
-}
+}'

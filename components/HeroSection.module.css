@@ -133,11 +133,7 @@
   z-index: 0;
 }
 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 7762d610299662934215776b08962385a8fdb8db
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(30px); }
   to   { opacity: 1; transform: translateY(0); }

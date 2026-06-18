@@ -35,11 +35,7 @@ export default function Navbar() {
   return (
     <nav className={styles.nav}>
       <span className={styles.logo} onClick={() => window.scrollTo(0, 0)}>
-<<<<<<< HEAD
-        vignesh.ks
-=======
         Vignesh K S
->>>>>>> 7762d610299662934215776b08962385a8fdb8db
       </span>
 
       <ul className={`${styles.links} ${open ? styles.open : ''}`}>

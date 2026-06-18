@@ -1,0 +1,46 @@
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: var(--bg);
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  max-width: 660px;
+  width: 100%;
+}
+
+.heading { text-align: center; font-size: clamp(2rem, 5vw, 3.5rem); }
+.accent { color: var(--accent); }
+.sub { margin: 0 auto 2.5rem; }
+
+.btns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btnPulse {
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 0 25px rgba(0, 212, 255, 0.3);
+  animation: ctaPulse 2.5s infinite;
+  transition: transform 0.2s;
+}
+
+.btnPulse:hover { transform: scale(1.06); }
+
+@keyframes ctaPulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(0, 212, 255, 0.3); }
+  50% { box-shadow: 0 0 55px rgba(0, 212, 255, 0.6), 0 0 80px rgba(124, 58, 237, 0.3); }
+}
